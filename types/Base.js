@@ -17,7 +17,7 @@ module.exports = class CQCode {
 
   escapeSpecialChars(chars){
     Object.entries(specialChars).map(([find,replace]) => {
-      chars = chars.replace(find,replace)
+      chars = chars.replaceAll(find,replace)
     })
     return chars
   }
