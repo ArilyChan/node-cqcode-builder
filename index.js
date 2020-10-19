@@ -9,4 +9,5 @@ module.exports = {
   Record: require('./types/Record'),
   At: require('./types/At'),
   Music: require('./types/Music'),
+  Poke: require('./types/Poke'),
 }
