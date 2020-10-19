@@ -1,5 +1,5 @@
 {
-  "name": "cqcode",
+  "name": "cqcode-builder",
   "version": "1.0.0",
   "description": "cqcode helper",
   "main": "index.js",
