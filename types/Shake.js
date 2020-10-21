@@ -1,6 +1,6 @@
 const URL = require('url').URL;
 const Base = require('./Base')
-module.exports = class Share extends Base{
+module.exports = class Shake extends Base{
   constructor(attr){
     super(attr)
     this.type = 'shake'
