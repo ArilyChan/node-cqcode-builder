@@ -1,6 +1,6 @@
 const URL = require('url').URL;
 const Base = require('./Base')
-module.exports = class Share extends Base{
+module.exports = class Music extends Base{
   constructor(attr){
     super(attr)
     this.type = 'music'

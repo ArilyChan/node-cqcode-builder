@@ -1,5 +1,5 @@
 const Base = require('./Base')
-module.exports = class Reply extends Base{
+module.exports = class At extends Base{
   constructor(attr){
     super(attr)
     this.type = 'at'
